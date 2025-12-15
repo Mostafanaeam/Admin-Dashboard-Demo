@@ -43,6 +43,7 @@ Access the application at **http://localhost:4200**.
 
 ## Features
 
+
 - **Orders**: View list, change status (patches update to backend).
 - **Prices**: View prices, update price inline (updates backend).
 - **Sizes**: View sizes, add new size (posts to backend).
