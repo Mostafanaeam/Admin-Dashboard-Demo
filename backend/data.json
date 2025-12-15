@@ -1,0 +1,48 @@
+{
+  "orders": [
+    {
+      "id": 1,
+      "customerName": "Ali",
+      "customerPhone": "0123456789",
+      "items": [
+        "Item1"
+      ],
+      "totalPrice": 100,
+      "status": "contacted",
+      "createdAt": "2025-12-15T11:13:54.425Z"
+    }
+  ],
+  "prices": [
+    {
+      "id": 1,
+      "name": "Item1",
+      "price": 555
+    }
+  ],
+  "sizes": [
+    {
+      "id": 1,
+      "name": "Small"
+    },
+    {
+      "id": 1765797590706,
+      "name": "L"
+    },
+    {
+      "id": 1765798562142,
+      "name": "m"
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "name": "Ali",
+      "phone": "0123456789"
+    },
+    {
+      "id": 1765797602495,
+      "name": "MOSTAFA",
+      "phone": "222222"
+    }
+  ]
+}
