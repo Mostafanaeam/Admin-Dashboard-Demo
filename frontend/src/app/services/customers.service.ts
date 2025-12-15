@@ -9,7 +9,7 @@ export interface Customer {
 
 @Injectable({ providedIn: "root" })
 export class CustomersService {
-  private api = "http://localhost:5000";
+  private api = "https://admin-dashboard-demo-t2st.vercel.app/";
   customers = signal<Customer[]>([]);
 
   constructor(private http: HttpClient) {}

@@ -15,7 +15,7 @@ export interface Order {
 
 @Injectable({ providedIn: "root" })
 export class OrdersService {
-  private api = "http://localhost:5000";
+  private api = "https://admin-dashboard-demo-t2st.vercel.app/";
   orders = signal<Order[]>([]);
 
   constructor(private http: HttpClient) {}

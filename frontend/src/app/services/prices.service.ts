@@ -9,7 +9,7 @@ export interface PriceItem {
 
 @Injectable({ providedIn: "root" })
 export class PricesService {
-  private api = "http://localhost:5000";
+  private api = "https://admin-dashboard-demo-t2st.vercel.app/";
   prices = signal<PriceItem[]>([]);
 
   constructor(private http: HttpClient) {}

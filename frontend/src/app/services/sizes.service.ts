@@ -8,7 +8,7 @@ export interface Size {
 
 @Injectable({ providedIn: "root" })
 export class SizesService {
-  private api = "http://localhost:5000";
+  private api = "https://admin-dashboard-demo-t2st.vercel.app/";
   sizes = signal<Size[]>([]);
 
   constructor(private http: HttpClient) {}
